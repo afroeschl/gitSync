@@ -1,16 +1,13 @@
 #!/bin/bash
 
-# Variables (replace with your GitHub username)
+# Set GitHub username
 GITHUB_USERNAME="afroeschl"
-REPO_NAME="test"
-
-# Prompt for repository name
-read -r "Enter the repository name: " REPO_NAME
+REPO_NAME="$(basename "$PWD")"
 
 # Check if GITHUB_TOKEN is set
 if [[ -z "$GITHUB_TOKEN" ]]; then
-    echo "Error: GitHub token is not set. Please export GITHUB_TOKEN and rerun the script. Use export GITHUB_TOKEN=''YOUR TOKEN''"
-    exit 1
+    echo -e "Error: GitHub token is not set. Please export GITHUB_TOKEN and rerun the script. Use \033[1mexport GITHUB_TOKEN="YOUR TOKEN"\033[0m"
+    	exit 1
 fi
 
 # URL for GitHub remote
