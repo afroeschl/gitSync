@@ -23,9 +23,4 @@ Instead of setting the enviromental variable for the GitHub token, you can set i
 sudo GITHUB_TOKEN="YOUR TOKEN" bash /path/to/gitSync/gitSync.sh
 </code>
 
-Now the repo is on both platforms.
-
-
-## ToDo:
-- Make login to university email automatic, no frequent login prompts
-- Dynamically set GitHub username
+Now the git remote is on both platforms. 
