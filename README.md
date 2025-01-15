@@ -7,7 +7,7 @@
 
 <code>export GITHUB_TOKEN="YOUR TOKEN"</code>
 
-(You could export the token to an environmental variable at startup via any startup script eg. .bashrc) 
+(You could export the token to an environmental variable at startup via any startup script eg. via <code>.bashrc</code>) 
 ## Usage
 
 Clone the sgit repo, cd into and run the script
