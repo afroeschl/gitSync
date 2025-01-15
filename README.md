@@ -3,11 +3,11 @@
 
 1. Change the GitHub Username in the <code>gitSync.sh</code>
 
-2. Set enviromental variable containing a GitHub token with necessary privileges
+2. Set environmental variable containing a GitHub token with necessary privileges
 
 <code>export GITHUB_TOKEN="YOUR TOKEN"</code>
 
-
+(You could export the token to an environmental variable at startup via any startup script eg. .bashrc) 
 ## Usage
 
 Clone the sgit repo, cd into and run the script
